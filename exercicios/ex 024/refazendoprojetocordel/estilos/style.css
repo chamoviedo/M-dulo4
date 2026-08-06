@@ -16,6 +16,7 @@
     header > h1 {
         padding-top: 50px;
         font-variant: small-caps;
+        /* text-transform: uppercase; para deichar tudo em maiuscula */
     } 
     header > p {
         padding-bottom: 50px;
