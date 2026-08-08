@@ -6,7 +6,7 @@
    :root {
         --font1: verdana, geneva, tahoma, sans-serif;
         --font2: "Passion One", sans-serif;
-        --font3: "Sriracha", cursive; 
+        --font3: 'Sriracha', cursive; 
    }
   *{
     margin: 0px;
@@ -55,6 +55,8 @@
         color: black;
     }
     section.imagem {
+        display: inline-block;
+        padding: 5px;
         background-color: rgb(51, 50, 50);
         color: white;
     }
