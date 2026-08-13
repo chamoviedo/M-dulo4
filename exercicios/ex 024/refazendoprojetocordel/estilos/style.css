@@ -50,20 +50,31 @@
         line-height: 2em;
         padding-left: 30px;
     }
+    section > p {
+        padding-bottom: 2em;
+    }
     section.normal {
         background-color: white;
         color: black;
     }
     section.imagem {
-        display: inline-block;
+        
         padding: 5px;
         background-color: rgb(51, 50, 50);
         color: white;
     }
     section.imagem > p {
         display: inline-block;
-        padding:5px
-        background-color: rgba(0, 0, 0, 0.342);
+         backgound-color: rgb(22, 20, 20);
+        padding:5px;
+       ;
+    }
+    section#img01 {
+        background-image: url('../imagens/background001.jpg');
+        background-position: right center;
+    }
+    section#img02 {
+        background-image: url('../imagens/background002.jpg');
     }
     footer {
         background-color: black;
